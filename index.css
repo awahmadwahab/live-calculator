@@ -1,0 +1,75 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    background-color: rgb(13, 49, 56);
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    opacity: 70%;
+}
+#calculator
+{
+    height: 60vb;
+    width: 51vb;
+    background-color: rgb(11, 28, 58);
+    border: 1px solid white;
+    margin:15vb auto ;
+    padding-top: 20px;
+}
+#display
+{
+    top:auto;
+    height: 12vb;
+    width:50vb;
+    background-color: rgb(31, 43, 69);
+    border: none;
+    text-align: left;
+    font-size: 5rem;
+    color: white;
+    text-indent: 5px;
+}
+
+#keys
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding: 20px;
+   
+    margin:20px;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 80px;
+    height:60px;
+    width:60px;
+    cursor:pointer;
+    color: white;
+    background-color: black;
+    box-shadow: inset 0px 0px 5px whitesmoke;
+}
+
+button:hover
+{
+    background-color:rgb(0, 0, 0);
+    box-shadow:  1px 1px 6px whitesmoke;
+}
+
+.oper
+{
+    background-color: #fcc300;
+    color: black;
+}
+.oper:hover
+{
+    background-color: #fcc300;
+    box-shadow: inset 2px 2px 5px black;
+}
+#ac
+{
+    color: black;
+    background-color: #bea245;
+}
