@@ -73,3 +73,25 @@ button:hover
     color: black;
     background-color: #bea245;
 }
+
+@media (max-width: 578px) 
+{    
+    #calculator
+    {
+        width:40vb;
+    }
+    #display
+    {
+        width:98%;
+    }
+    #keys
+    {
+            margin:0px;
+    }
+    button
+{
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+}
+}
